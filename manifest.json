@@ -1,0 +1,22 @@
+{
+  "name": "Not a Jelly Fish!",
+  "description": "Extension to make sure you are paying attention to the current task on the tab you have opened.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "html/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/interact.js"]
+    }
+  ],
+  "icons": { "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+   "128": "images/icon128.png" }
+}

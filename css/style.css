@@ -1,0 +1,68 @@
+body {
+  width: 400px;
+  height: 200px;
+  background-image: url("../images/bg.jpeg");
+  background-size: cover;
+  color: white;
+}
+.center-element {
+  text-align: center;
+}
+.btn {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  padding: 4px 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: transparent;
+  transition: .25s ease, color .25s ease, box-shadow .15s ease;
+  box-shadow: 0px 0px 0 #888;
+}
+  
+.btn:hover {
+  background: white;
+  color: black;
+  box-shadow: 4px 4px 0 #888;
+}
+    
+ .btn:active {
+  box-shadow: 0 0 0 #888;
+ }
+
+input[type=number] {
+  text-align: center;
+  width: 15%;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+input[type=number]:focus {
+  background-color: lightblue;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+ol {
+  margin-top: 20px;
+}
+li {
+  font-size: 10px;
+}
+h4 {
+  font-weight: normal;
+}
+
+.timer {
+  display: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

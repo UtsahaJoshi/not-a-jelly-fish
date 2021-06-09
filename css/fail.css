@@ -1,0 +1,33 @@
+body {
+  background-image: url("../images/bg.jpeg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.btn {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  padding: 4px 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: transparent;
+  transition: .25s ease, color .25s ease, box-shadow .15s ease;
+  box-shadow: 0px 0px 0 #888;
+  margin-top: 20px;
+}
+  
+.btn:hover {
+  background: white;
+  color: black;
+  box-shadow: 4px 4px 0 #888;
+}
+    
+ .btn:active {
+  box-shadow: 0 0 0 #888;
+ }
+
+ .timer {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
